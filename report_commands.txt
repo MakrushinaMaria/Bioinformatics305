@@ -1,0 +1,13 @@
+git add genes_fixed.csv\ngit commit -m "Create genes_fixed.csv"
+git checkout -b cleaning
+git add diskusage.file\ngit commit -m "Record disk usage in lab_disaster"
+git checkout master
+echo "temp" > anyfile.txt\ngit add anyfile.txt\ngit commit -m "Temporary commit for amend"
+git rev-parse --short=4 HEAD
+echo "I was forgotten" > forgotten.txt\ngit add forgotten.txt
+git commit --amend --no-edit
+git log --oneline -5
+cat > amend.txt << 'EOF'\ni) Да, хэш изменился: до amend у меня был коммит 4412..., после amend стал f705337.\n\nii) Когда я сделала `git commit --amend` и добавила forgotten.txt в уже существующий коммит, содержимое коммита изменилось — поэтому git создал новый коммит с новым хэшем.\nEOF
+git add amend.txt\ngit commit -m "Explain git amend hash change"
+git checkout master
+history | grep " git " | sed 's/^[ ]*[0-9]*[ ]*//' > report_commands.txt
