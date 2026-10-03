@@ -1,0 +1,5 @@
+stage	total_chip_alignments	total_input_alignments	mapped_chip	properly_paired_chip	number_of_peaks	FRiP	median_signalValue	mean_signalValue	max_signalValue	median_neglog10q	max_neglog10q	depth_source_note
+75ep	23863894	39931858	23863894	23863894	36	0.00017185	5.790540	6.499345	21.701300	13.750600	100.050000	samtools flagstat total alignments
+1-2ss	12816614	33460348	12816614	12816614	40	0.00014036	6.107440	7.044308	21.228600	7.295835	56.183000	samtools flagstat total alignments
+5-6ss	18853396	57051062	NA	NA	839	0.00235952	5.523960	6.179150	30.979600	7.838010	163.701000	Total alignments: ChIP from teacher FRiP denominator; Input inferred as 2 x 28,525,531 paired fragments in MACS3 peaks.xls.
+14ss	41553880	27794668	41553880	41553880	170	0.00162069	3.290935	4.094744	34.669900	11.135000	321.453000	samtools flagstat total alignments

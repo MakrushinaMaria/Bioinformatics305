@@ -1,0 +1,4 @@
+candidate	chrom	view_start	view_end	peak_start	peak_end	anchor_stage	type	anchor_signalValue	anchor_neglog10q	nearest_gene	gene_distance_bp	rationale
+IGV_1	NC_007114.7	14906145	14922787	14914145	14914787	5-6ss	strong_5-6ss	30.9796	135.713	nfixb	0	Highest 5-6ss signalValue; shows a clear teacher-example peak.
+IGV_2	NC_007129.7	44262526	44278905	44275891	44276405	5-6ss	multi_stage_shared	19.7521	64.074	LOC137488334	0	5-6ss peak overlapping peaks in: 1-2ss, 14ss, 75ep.
+IGV_3	NC_007112.7	257234	265511	259734	260218	5-6ss	global_stage_specific	20.9834	63.047	cenpe	0	Highest-signal peak unique to 5-6ss among all four called-peak sets.

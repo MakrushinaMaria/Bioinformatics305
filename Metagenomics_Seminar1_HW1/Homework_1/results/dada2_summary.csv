@@ -1,0 +1,2 @@
+input_total,filtered_total,denoised_total,nonchimeric_total,filtered_percent,nonchimeric_percent,smallest_nonchimeric,smallest_sample,largest_nonchimeric,largest_sample
+641362,638869,622542,608362,99.61129596078345,94.85469984189896,4809,SRR17307380,43518,SRR17307475
